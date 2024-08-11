@@ -1,6 +1,5 @@
 import { Routes, Route, Outlet, NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-// import { useNavigate } from 'react-router-dom';
 
 function Home() {
   const navigate = useNavigate();
@@ -63,7 +62,7 @@ function Home() {
                   Rental
                   </h5>
                   <p className="text-gray-600">
-                  To Lend or Borrow equipment or access essential machinery
+                  To Lend or Borrow equipment or access essential machinery
                   </p>
                 </div>
               </div>
